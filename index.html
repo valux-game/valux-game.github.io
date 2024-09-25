@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="front-end web developer, unblocked games, coding, javascript, jquery, bootstrap, sass, less, git">
+    <meta property="og:title" content="Welcome to Project Zypher">
+    <meta property="og:site_name" content="zypher.site">
+    <meta property="og:description" content="Welcome to Project Zypher, a lightweight game site.">
+    <meta name="description" content="Welcome to Project Zypher, a lightweight, fast, and clean game site.">
+    <meta name="author" content="3kh0">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <title>Valux Games</title>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <style>
+    body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    color: rgb(62, 62, 230);
+    margin: 0;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+h1:hover {
+    color: rgb(62, 62, 230);
+    transform: scale(3.2);
+}
+
+#subtitle {
+    font-size: 1.5em;
+}
+
+.button-container {
+    margin-top: 20px; /* Space between title/subtitle and buttons */
+    display: flex;
+    justify-content: center; /* Center buttons */
+    gap: 10px; /* Space between buttons */
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.play-button {
+    background-color: rgb(62, 62, 230);
+}
+
+.play-button:hover {
+    background-color: rgb(82, 82, 250);
+}
+
+.tools-button {
+    background-color: #0b2830;
+}
+
+.tools-button:hover {
+    background-color: #0f353f;
+}
+
+a {
+    text-decoration: none; /* Remove underline from links */
+}
+
+    </style>
+</head>
+<body>
+    <h1>Valux Games</h1>
+    <span id="subtitle">...</span>
+    <div class="button-container">
+        <a href="/projects.html">
+            <button class="play-button">Start playing!</button>
+        </a>
+        <a href="/misc.html">
+            <button class="tools-button">Tools and settings</button>
+        </a>
+    </div>
+    <p>
+        Welcome to Valux Games, a simple game website without the fancy things.<br />
+    </p>
+    <script src="/js/main.js"></script>
+    <script src="/js/subtitle.js"></script>
+</body>
+</html>
