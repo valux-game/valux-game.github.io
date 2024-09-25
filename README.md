@@ -1,2 +1,3 @@
-# valux-game.github.io
+# Valux Games
+
 Best Game Site!
