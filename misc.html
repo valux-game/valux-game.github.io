@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <link rel="stylesheet" href="./css/misc.css" />
+    <title>Misc | Valux Games</title>
+</head>
+<body>
+    <h2>Miscellaneous Stuff</h2>
+    <div class="container">
+        <h1>about:blank</h1>
+        <p>Enter a URL you want to be opened in a about:blank page below:</p>
+        <input id="url-target" type="url" pattern="https://.*" placeholder="Enter a website URL" autocomplete="on" />
+        <p>Note this will not work with some websites, but you can copy the link of this website and put it in for extra privacy.</p>
+        <div class="button-wrapper">
+            <button id="create">Create Page</button>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Tab Cloaker</h1>
+        <p>Enter a new tab title or an image URL below. What you set will be used on the whole site.</p>
+        <input id="userinput" type="url" placeholder="Enter a title or image URL" autocomplete="on" />
+        <p id="console-output"></p>
+        <div class="button-wrapper">
+            <button onclick="changeTabTitle();">Set Title</button>
+            <button onclick="changeTabIcon();">Set Icon</button>
+            <button onclick="resetTabSettings();">Reset</button>
+        </div>
+    </div>
+    <p style="text-align: center; margin-top: 2em;">
+        <a href="/index.html">
+            <button class="homepage">Go to the Homepage</button>
+        </a>
+    </p>
+    <script src="/js/misc.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+</body>
+</html>
