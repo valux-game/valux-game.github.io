@@ -1,0 +1,52 @@
+function getRandomGreeting() {
+  var greetings = [
+    "Beep boop! Are you a robot?",
+    "Did you know I have a discord server?",
+    "How many sides does a circle have?",
+    "You can read btw",
+    "Made you look!",
+    "Redbull gives you wings...",
+    "Since 2020!",
+    "As seen on TV!",
+    "doot doot",
+    "Cold as ice!",
+    "Reload the page NOW!",
+    "Downloading your passwords...",
+    "I'm Slim Shady, yes, I'm the real Shady!",
+    "what the dog doin?",
+    "I'm gonna pop some tags",
+    "Shoutout to Black People!",
+    "thx stackoverflow!",
+    "are you a gaemer?",
+    "It is time to get funky!",
+    "We didn't start the fire! It was always burning, since the world's been turning!",
+    "Don't ask questions if you can't handle the answers!",
+    "If you are using Microsoft Edge, you need some help.",
+    "Shoutout to Valux!",
+    "Woo! /g/",
+    "Is this the United Airlines costumer service center?",
+    "POV that one person who's 2 braincells are fighting for second place.",
+    "bottem text",
+    "Why do they call it oven if you oven the cold food of out hot eat the food",
+    "No fun allowed",
+    "Your toes will be pulled tonight",
+    "i do love buying birth certificates from the black market!",
+    "If you are trash go play Fortnite you loser",
+    "i wanted free vbucks :(",
+    "reload for another message",
+    "And just to think I knew him before he was famous",
+    "Trust me, I did not copy Minecraft with this",
+    "It is everyday bro",
+    "That proves you are unusual",
+    "What's my age again?",
+    "This is the 5th time this week, and it's only Monday",
+    "You bum",
+    "Roblox? Cringe!",
+    "Toss the Turtle is pretty fun",
+    "Crazy how this started when i was 11 and now im a freshman in RHBS"
+  ];
+  var randomIndex = Math.floor(Math.random() * greetings.length);
+  return greetings[randomIndex];
+}
+
+document.getElementById("subtitle").innerText = getRandomGreeting();
