@@ -43,7 +43,9 @@ function getRandomGreeting() {
     "You bum",
     "Roblox? Cringe!",
     "Toss the Turtle is pretty fun",
-    "Crazy how this started when i was 11 and now im a freshman in RHBS"
+    "Hmmmmmmmmmmmmmmmmmmmmmmmmmmm",
+    "Jump!",
+    "Keeeeeppp Talkkkkingggg Immmm Gonnaaa Cummm Immmm Gonnnaaa Cummm",
   ];
   var randomIndex = Math.floor(Math.random() * greetings.length);
   return greetings[randomIndex];
